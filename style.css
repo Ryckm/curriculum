@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* anular certos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4ea9ff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5vw;
+    font-size: 0.75vw;
+    background-color: #e7e9f1;
+}
+
+body > div > h1 {
+    background-color: #4ea9ff;
+    text-align: center;
+    padding: 1vw;
+    color: #F2F5FF;
+    font-size: 2vw;
+} 
+
+section > div > h1 {
+    text-align: center;
+    margin-top: 2vw;    
+}
+
+#desenho, #fotografia {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2vw;
+    place-items: center;
+}
+
+#desenho > div, #fotografia > div {
+    width: 18vw;
+    height: 24vw;
+    margin-bottom: 2vw;
+}
+
+/* DESENHOS */
+
+.ds1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds6.png');
+    background-size: 105%;
+    background-position: 45% 45%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds1:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds2.webp');
+    background-size: 140%;
+    background-position: 35% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds2:hover {
+    background-size: 154%;
+    background-position: 35% 50%;
+    filter: grayscale(80%);
+}
+
+.ds3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds3.webp');
+    background-size: 140%;
+    background-position: 43% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds3:hover {
+    background-size: 160%;
+    background-position: 43% 50%;
+    filter: grayscale(80%);
+}
+
+.ds4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds4.jpg');
+    background-size: 140%;
+    background-position: 60% 45%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds4:hover {
+    background-size: 150%;
+    background-position: 60% 45%;
+    filter: grayscale(80%);
+}
+
+.ds5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds5.png');
+    background-size: 130%;
+    background-position: 45% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds5:hover {
+    background-size: 140%;
+    background-position: 80% 50%;
+    filter: grayscale(80%);
+}
+
+.ds6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds1.jpg');
+    background-size: 105%;
+    background-position: 45% 45%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds6:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds7 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds7.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds7:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds8 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds8.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds8:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds9 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds9.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds9:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds10 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds10.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds10:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds12 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds11.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds12:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds13 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds12.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds13:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ds14 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ds/ds14.jpeg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ds14:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+/* FOTOGRAFIA */
+
+.ft1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft1.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft1:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft2.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft2:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft3.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft3:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft4.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft4:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft5 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft5.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft5:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft6 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft6.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft6:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft7 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft7.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft7:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft8 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft8.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft8:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft9 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft9.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft9:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft10 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft10.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft10:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft11 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft11.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft11:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft12 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft12.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft12:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft13 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft13.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft13:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft14 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft14.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft14:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft15 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft15.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft15:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft16 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft16.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft16:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft17 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft17.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft17:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft18 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft18.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft18:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft19 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft19.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft19:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft20 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft20.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft20:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft21 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft21.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft21:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft22 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft22.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft22:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft23 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft23.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft23:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+.ft24 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft24.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft24:hover {
+    background-size: 150%;
+    background-position: 50% 20%;
+    filter: grayscale(80%);
+}
+
+.ft25 {
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/ft/ft25.jpg');
+    background-size: 105%;
+    background-position: 50% 50%;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.ft25:hover {
+    background-size: 120%;
+    background-position: 50% 50%;
+    filter: grayscale(80%);
+}
+
+/* FIM DA FOTOGRAFIA */
+
+#informacoes > div {
+    background-color: #ffff;
+    display: flex;
+    padding: 2vw 18vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacoes > div > div {
+    text-align: center;
+    color: #F2F5FF;
+}
+
+#informacoes > div > div > div {
+    width: 28vw;
+    height: 38vw;
+    padding: 1.563vw;
+    align-content: center;
+}
+
+.f {
+    background-color: #F2F5FF;
+}
+
+.f > .sub {
+    color: #4d4d4d;
+}
+
+.f > .inf {
+    color: #4ea9ff;
+}
+
+.f > h1 {
+    color: #4ea9ff;
+}
+
+.f:nth-child(1) {
+    border-radius: 4% 0 0 0;
+}
+
+.f:nth-child(2) {
+    border-radius: 0 0 4% 0;
+}
+
+.s {
+    background-color: #4ea9ff;
+}
+
+.s:nth-child(1) {
+    border-radius: 0 4% 0 0;
+}
+
+.s:nth-child(2) {
+    border-radius: 0 0 0 4%;
+}
+
+#informacoes > div > div > div > h1 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+.sub {
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+.inf {
+    font-size: 1.5vw;
+}
+
+#informacoes > div > div > div > p {
+    line-height: 2vw;
+    margin-bottom: 0.4vw;
+}
+
+
+
+/* ADAPTANDO RESOLUÇÕES */ 
+
+@media (max-width:1000px) {
+    #informacoes > div {
+        flex-direction: column;
+    }
+
+    #informacoes > div > div > div {
+        width: 55vw;
+        height: 80vw;
+        padding: 2vw;
+        align-content: center;
+    }
+
+    .f:nth-child(1) {
+        border-radius: 4% 4% 0 0;
+    }
+    
+    .f:nth-child(2) {
+        border-radius: 0 0 4% 4%;
+    }
+
+    .s:nth-child(1) {
+        border-radius: 0 0 0 0;
+    }
+    
+    .s:nth-child(2) {
+        border-radius: 0 0 0 0;
+    } 
+
+    .sub {
+        font-size: 2.2vw;
+        margin-top: 3.2vw;
+    }
+    
+    .inf {
+        font-size: 3.2vw;
+    }
+    
+    #informacoes > div > div > div > h1 {
+        font-size: 6vw;
+        margin-bottom: 4.8vw;
+    }
+
+    #informacoes > div > div > div > p {
+        line-height: 3.5vw;
+        margin-bottom: 3vw;
+    }
+
+    #desenho, #fotografia {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1vw;
+    }
+
+    #desenho > div, #fotografia > div {
+        width: 30vw;
+        height: 42vw;
+        margin-bottom: 2vw;
+    }
+
+    body > div > h1 {
+        background-color: #4ea9ff;
+        text-align: center;
+        padding: 1vw;
+        color: #F2F5FF;
+        font-size: 3vw;
+    } 
+
+    .ds11 {
+        width: 100%;
+        height: 100%;
+        background-image: url('imgs/ds/ds12.jpeg');
+        background-size: 105%;
+        background-position: 50% 50%;
+        border-radius: 4%;
+        transition: 1s;
+    }
+    
+    .ds11:hover {
+        background-size: 120%;
+        background-position: 50% 50%;
+        filter: grayscale(80%);
+    }
+
+    .ds13 {
+        display: none;
+    }
+
+    .ft25 {
+        margin: 0 32.2vw;
+    }
+    
+}
